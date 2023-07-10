@@ -334,15 +334,16 @@
   }
   
   /* Estilos para los campos de entrada */
-  .select-wrapper input[type="nombre"] {
+  /* Estilos para el campo desplegable */
+.select-wrapper select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
     background-color: #ffffff;
     border: none;
     border-radius: 15px;
-    padding: 10px;
-    margin-bottom: 15px;
-    width: 100%;
     color: #5a5a5a;
-    margin: 0;
   }
   
   .input-field {

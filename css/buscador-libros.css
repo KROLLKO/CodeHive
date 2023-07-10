@@ -1,14 +1,27 @@
+/*---------------- GENERAL ---------------- */ 
+
+/* Reseteo */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 #searchForm {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
   margin-bottom: 20px;
 }
 
 #searchInput {
   padding: 10px;
-  width: 500px;
-  border-color: #39A388;
-  border-radius: 4px;
+  width: 100%;
+  background-color: #EFEFEF;
+  border: 1px solid #D1D0CF;
+  border-radius: 15px;
+  margin-bottom: 10px;
 }
 
 #searchInput::placeholder {
@@ -22,12 +35,49 @@
 #searchForm button {
   background-color: #39A388;
   color: #fff;
-  border: none;
+  border: 5px solid;
   padding: 10px 20px;
-  border-radius: 4px;
+  border-radius: 25px;
   cursor: pointer;
+  width: 100%;
 }
 
-#bookContainer {
-  margin-top: 20px;
+.book {
+  margin-bottom: 10px;
+  padding: 15px;
+  background-color: #EFEFEF;
+  border: 1px solid #D1D0CF;
+  font-size: 25px;
+  border-radius: 15px;
 }
+
+.book button {
+  background-color: #39A388;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.book h3 {
+  color: #39A388;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.book p {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.book p::first-letter {
+  font-weight: bold;
+}
+
+.book hr {
+  display: none;
+}
+

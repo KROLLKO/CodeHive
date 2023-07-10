@@ -74,16 +74,16 @@ textarea {
 
 .buttons button {
   color: #ffffff;
-  background-color: #F26C23;
+  background-color: #39A388;
 }
 
 .buttons button:hover {
-  background-color: #D35822;
+  background-color: #3F8C76;
 }
 
 .buttons a {
   color: #ffffff;
-  background-color: #39A388;
+  background-color: #D1D0CF;
 }
 
 .buttons a:hover {
